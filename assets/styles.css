@@ -30,6 +30,7 @@ button, input { font: inherit; }
 .site-header.scrolled { border-color: var(--line); box-shadow: 0 8px 30px rgb(32 30 26 / 5%); }
 .nav-wrap { min-height: 78px; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
 .brand { display: inline-flex; align-items: center; gap: 11px; font-size: 16px; font-weight: 670; letter-spacing: -.035em; text-decoration: none; }
+.brand > img { border-radius: 22%; }
 .site-nav { display: flex; align-items: center; gap: 28px; }
 .site-nav > a { color: var(--soft-ink); font-size: 13px; text-decoration: none; }
 .site-nav > a:hover { color: var(--accent); }
